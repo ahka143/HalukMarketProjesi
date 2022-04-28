@@ -29,7 +29,9 @@ public class HalukMarket extends Methods {
 		 * 6. Eğer devam etmek istiyorsa yeniden ürün seçme kısmına yönlendiriniz.
 		 * 7. Eğer bitirmek istiyorsa ödemeyi kontrol edip para ustu hesaplayarak  programı bitirinzi.
 		 */
-        urunSec(urunListesi, fiyatListesi);
 
+
+
+       new Methods().urunSec();
     }
 }
